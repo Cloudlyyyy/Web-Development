@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBA Merchandise</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="utils.js"></script>
+    <script defer src="cart.js"></script>
+</head>
+
+<body>
+    <div class="title-container">
+        <img src="imgs/usa-flag.jpeg" alt="USA Flag" class="usa-flag">
+        <h1>Team USA Basketball Merchandise for Paris Olympics 2024</h1>
+        <img src="imgs/usa-flag.jpeg" alt="USA Flag" class="usa-flag">
+    </div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="https://store.nba.com/">Official NBA Store</a>
+                <li><a href="questions.html">Any Questions?</a></li>
+                <li><a href="cart.html">Cart</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <h2>Your Current Order</h2>
+
+        <div id="empty" class="hidden">
+            <p>You have not added any items to your cart.</p>
+        </div>
+        
+
+        <div id="full" class="hidden">
+            <section id="cart-items" class="grid">
+                <!--To be populated-->
+            </section>
+            <aside>
+                <div>
+                    <p>Order Total: $<span id="price"></span></p>
+                </div>
+            </aside>
+        </div>
+
+        <div id="ordered" class="hidden">
+            <p>We have recieved your order!</p>
+        </div>
+
+    </main>
+    <footer>
+        <p>&copy; 2024 NBA Merchandise Store</p>
+    </footer>
+</body>
+</html>
