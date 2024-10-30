@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="addanimal.css">
+    <script defer src="addanimal.js"></script>
+    <script src="utils.js"></script>
+</head>
+
+<body>
+    <main>
+
+        <form id="input-form" enctype="multipart/form-data">
+            <!--<label for="image">Enter animal image:
+                <input type="file" id="image" name="image">
+            </label><br>
+            -->
+            <label for="animal">Enter type of animal (dog or cat) Note:Case-Sensitive:
+                <input type="text" id="animal" name="animal">
+            </label><br>
+            <label for="name">Enter name of animal:
+                <input type="text" id="name" name="name">
+            </label><br>
+            <label for="breed">Enter the breed:
+                <input type="text" id="breed" name="breed">
+            </label><br>
+            <label for="size" >Enter size of animal (S, M, L) Note:Case-Senstive:
+                <input type="text" id="size" name="size">
+            </label><br>
+            <label for="age">Enter the age:
+                <input type="text" id="age" name="age">
+            </label><br>
+        </form>
+        <div id="main-view">
+            <button type="submit">Submit</button>
+        </div>
+
+        <div id="done-view" class="hidden">
+            <p>We have recieved the new animal's profile. It should be available in the home 
+            screen. Please contact us if you don't see it.</p>
+        </div>
+
+    </main>
+</body>
+</html>

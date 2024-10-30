@@ -1,0 +1,32 @@
+While doing this assignment, one of the most important things I've learned was when fetching 
+information, we should not hardcode the path through localhost because the fetch call is used 
+to gather information from the server and display for the client. However, when I was first 
+doing this, I didn't really understand since I thought that you call fetch on the url path to
+the data you want to get. This didn't make sense because I was trying to fetch information from
+the client side itself since the webpage had the text url path to the picture I wanted to 
+rendered. 
+
+Another main takeaway from this assignment was learning to use await/fetch and promises. From 
+lecture, I've seen that whenever you use async, there should always be await when using fetch.
+When I first implemented functions to get the dogs and cats, I was running into issues with type 
+errors so I spent a lot of time just casting these variables to get it into a json object. However,
+after discussing with Hovik, I learned about promises. I did see promises in the lectures but I 
+didn't think they were that important. However, I learned that fetch returns a promise and you 
+have to convert that promise to different forms like text and json to resolve the promise.
+
+From this assignment, I was able to take more time to look over the materials and dedicate time to 
+implement my own api which allowed me to become more comfortable working with node.js and express 
+and learning more about implementing the integration between the server and client side. 
+
+There are two problems that I currently have which are rendering the pictures when adding an 
+animal and rendering text twice. I spent a few hours trying to render images but I couldn't seem
+to integrate that with the post. I did some research and looked at the lecture slides and it looked 
+like I needed to use multer, but I was not successful in implementing it. However, I was able to 
+render the other infromation like name, breed, age, and size on the webpage once you input the
+information. This leads me to my second problem. When I input the infromation from the form, it 
+renders the text twice. However, when I use Postman, it works perfectly fine. I tried to implement 
+functions to remove the duplication but I was not successful. 
+
+If I have more time, I would try to render images from the post endpoints and I would try to fix 
+the problem of rendering text twice. 
+

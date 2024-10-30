@@ -1,0 +1,112 @@
+{
+  "animals": {
+    "dogs": [
+      {
+        "name": "Max",
+        "id": "dog",
+        "breed": "Labrador Retriever",
+        "size": "L",
+        "age": "5",
+        "image": "max.jpeg"
+      },
+      {
+        "name": "Bella",
+        "id": "dog",
+        "breed": "French Bulldog",
+        "size": "M",
+        "age": "3",
+        "image": "bella.jpeg"
+      },
+      {
+        "name": "Charlie",
+        "id": "dog",
+        "breed": "Dachshund",
+        "size": "S",
+        "age": "7",
+        "image": "charlie.jpeg"
+      },
+      {
+        "name": "Rocky",
+        "id": "dog",
+        "breed": "German Shepherd",
+        "size": "L",
+        "age": "1",
+        "image": "rocky.jpeg"
+      },
+      {
+        "name": [
+          "peanut",
+          "peanut"
+        ],
+        "id": "dog",
+        "breed": [
+          "Corgi",
+          "Corgi"
+        ],
+        "size": [
+          "S",
+          "S"
+        ],
+        "age": [
+          "4",
+          "4"
+        ],
+        "image": "animal.jpeg"
+      },
+      {
+        "name": "Fluffy",
+        "id": "dog",
+        "breed": "Poodle",
+        "size": "L",
+        "age": "2",
+        "image": "animal.jpeg"
+      }
+    ],
+    "cats": [
+      {
+        "name": "Luna",
+        "id": "cat",
+        "breed": "Maine Coon",
+        "size": "L",
+        "age": "4",
+        "image": "luna.jpeg"
+      },
+      {
+        "name": "Simba",
+        "id": "cat",
+        "breed": "Bengal",
+        "size": "M",
+        "age": "2",
+        "image": "simba.jpeg"
+      },
+      {
+        "name": "Chloe",
+        "id": "cat",
+        "breed": "Siamese",
+        "size": "M",
+        "age": "5",
+        "image": "chloe.jpeg"
+      },
+      {
+        "name": [
+          "whiskers",
+          "whiskers"
+        ],
+        "id": "cat",
+        "breed": [
+          "Burmese Cat",
+          "B"
+        ],
+        "size": [
+          "M",
+          "M"
+        ],
+        "age": [
+          "5",
+          "5"
+        ],
+        "image": "animal.jpeg"
+      }
+    ]
+  }
+}
